@@ -1,3 +1,3 @@
 ## Oslo City Bikes
 
-Data retrieved from [https://oslobysykkel.no]
+Data retrieved from https://oslobysykkel.no

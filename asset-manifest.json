@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/oslo-bysykkel/static/css/main.e7715761.chunk.css",
+    "main.js": "/oslo-bysykkel/static/js/main.9cd5de41.chunk.js",
+    "main.js.map": "/oslo-bysykkel/static/js/main.9cd5de41.chunk.js.map",
+    "runtime-main.js": "/oslo-bysykkel/static/js/runtime-main.3be423b1.js",
+    "runtime-main.js.map": "/oslo-bysykkel/static/js/runtime-main.3be423b1.js.map",
+    "static/js/2.810c8ef4.chunk.js": "/oslo-bysykkel/static/js/2.810c8ef4.chunk.js",
+    "static/js/2.810c8ef4.chunk.js.map": "/oslo-bysykkel/static/js/2.810c8ef4.chunk.js.map",
+    "index.html": "/oslo-bysykkel/index.html",
+    "precache-manifest.a76c6df95e030c94278a8598d760bbaa.js": "/oslo-bysykkel/precache-manifest.a76c6df95e030c94278a8598d760bbaa.js",
+    "service-worker.js": "/oslo-bysykkel/service-worker.js",
+    "static/css/main.e7715761.chunk.css.map": "/oslo-bysykkel/static/css/main.e7715761.chunk.css.map",
+    "static/js/2.810c8ef4.chunk.js.LICENSE.txt": "/oslo-bysykkel/static/js/2.810c8ef4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3be423b1.js",
+    "static/js/2.810c8ef4.chunk.js",
+    "static/css/main.e7715761.chunk.css",
+    "static/js/main.9cd5de41.chunk.js"
+  ]
+}

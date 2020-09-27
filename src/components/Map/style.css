@@ -1,0 +1,82 @@
+.map .map-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+}
+
+.map .map-controls {
+    z-index: 10;
+    position: relative;
+    margin: auto;
+    padding-top: .5rem;
+    width: 25%;
+}
+
+.map .map-controls button {
+    background-color: var(--primary-contrast-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+    margin: .15rem;
+    width: calc(100% / 3 - .15rem * 2);
+    font-size: 1rem;
+    border-radius: 3px;
+}
+
+.map .map-controls button:hover,
+.map .map-controls button:focus,
+.map .map-controls button:active {
+    filter: brightness(85%);
+}
+
+.map .map-controls button.selected {
+    background-color: var(--primary-color);
+    color: var(--primary-contrast-color);
+}
+
+.map.map-bikes .marker-no-bikes {
+    background-color: lightslategrey;
+}
+
+.map.map-docks .marker-no-docks {
+    background-color: grey;
+}
+
+.marker {
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-contrast-color);
+    background-size: cover;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    color: var(--primary-color);
+    min-width: 300px;
+}
+
+.mapboxgl-popup-content .title {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin-top: .25rem;
+    margin-bottom: .5rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.mapboxgl-popup-content .info-entry {
+    font-size: 1rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .map .map-controls {
+        width: 100%;
+    }
+}

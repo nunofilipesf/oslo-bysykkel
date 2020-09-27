@@ -1,0 +1,6 @@
+.topbar {
+    margin: auto;
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--primary-color);
+}

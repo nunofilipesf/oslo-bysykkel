@@ -1,0 +1,25 @@
+.footer {
+    position: relative;
+    background-color: var(--primary-color);
+    color: var(--primary-contrast-color);
+}
+
+.footer .footer-content {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+}
+
+.footer a {
+    color: var(--primary-contrast-color);
+}
+
+.footer p {
+    margin: .25rem 0;
+}

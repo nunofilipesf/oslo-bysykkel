@@ -73,17 +73,17 @@ function onMapLoad(map, markers) {
 
         for (const marker of geojsonData.features) {
             // create a HTML element for each feature
-            const el = document.createElement('div');
-            el.className = 'marker';
+            const markerElement = document.createElement('div');
+            markerElement.className = 'marker';
 
             if (marker.properties.bikes === 0)
-                el.classList.add('marker-no-bikes');
+                markerElement.classList.add('marker-no-bikes');
 
             if (marker.properties.docks === 0)
-                el.classList.add('marker-no-docks');
+                markerElement.classList.add('marker-no-docks');
 
             // make a marker for each feature and add to the map
-            new Marker(el)
+            new Marker(markerElement)
                 .setLngLat(marker.geometry.coordinates)
                 .setPopup(
                     new Popup({ offset: 5 })
